@@ -7,18 +7,12 @@
 
 	<session-factory>
 		<property name="hbm2ddl.auto">update</property>
-		<property name="dialect">
-			org.hibernate.dialect.MySQLDialect
-		</property>
-		<property name="connection.url">
-			jdbc:mysql://localhost:3306/dipdb
-		</property>
-		<property name="connection.username">root</property>
-		<property name="connection.password">root</property>
-		<property name="connection.driver_class">
-			com.mysql.jdbc.Driver
-		</property>
-		<property name="myeclipse.connection.profile">mysql</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.url">jdbc:mysql://23.91.112.8/education</property>
+		<property name="connection.username">dipeducation</property>
+		<property name="connection.password">9971575135</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="myeclipse.connection.profile">DipDB</property>
 		<mapping resource="com/educationproject/model/Course.hbm.xml" />
 		<mapping resource="com/educationproject/model/Admin.hbm.xml" />
 

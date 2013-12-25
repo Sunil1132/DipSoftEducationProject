@@ -1,5 +1,5 @@
 #MyEclipse Hibernate Properties
-#Wed Dec 18 00:36:00 IST 2013
+#Wed Dec 25 08:22:21 IST 2013
 genBasicCompId=false
 sessionFactoryName=com.educationproject.services.factory.HibernateSessionFactory
 profile=
@@ -18,4 +18,4 @@ genAnnotations=false
 reSettingsFile=
 configFile=/GitWebProject/src/hibernate.cfg.xml
 createConfigFile=true
-baseDaoClass=com.educationproject.model.BaseHibernateDAO
+baseDaoClass=com.educationproject.users.BaseHibernateDAO
