@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Wed Dec 18 00:36:00 IST 2013
+genBasicCompId=false
+sessionFactoryName=com.educationproject.services.factory.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/GitWebProject/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=com.educationproject.model.BaseHibernateDAO

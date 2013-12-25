@@ -4,5 +4,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="GitWebProject"/>
         <property name="java-output-path" value="/GitWebProject/WebRoot/WEB-INF/classes"/>
+        <property name="me-struts-base-pkg" value="com.educationproject.struts"/>
     </wb-module>
 </project-modules>
